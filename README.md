@@ -14,22 +14,6 @@ This project uses a DHT11 sensor to check humidity and temperature. It uses an A
 - Data is stored in `dht11_log.txt` in the same folder as the Python script
 - Works as long as the computer is connected to the Arduino
 
-## Requirements
-
-### Hardware
-- Arduino (Uno or compatible)
-- DHT11 sensor (connected to pin 2)
-- 16x2 LCD (connected to pins 7, 8, 9, 10, 11, 12)
-
-### Software
-- Arduino IDE with the following libraries:
-  - `DHT sensor library` (Adafruit)
-  - `LiquidCrystal`
-- Python 3.x with `pyserial` installed:
-  ```
-  pip install pyserial
-  ```
-
 ## Usage
 
 1. Upload `DHT11-3.ino` to your Arduino
